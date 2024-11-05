@@ -1,8 +1,11 @@
 {
-  "name": "@spiderman/just-another-npm-package",
+  "name": "just-another-npm-package",
   "version": "1.0.0",
   "description": "o7",
   "main": "index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@blissaw"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
